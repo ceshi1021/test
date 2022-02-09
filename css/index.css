@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: '微软雅黑';
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+hr {
+  margin-left: 20%;
+  background-color: #5e2d00;
+}
+a {
+  text-indent: 1em;
+  display: inline-block;
+  color: #5e2d00;
+  font-size: 22px;
+}
+nav :first-child {
+  text-indent: 0;
+}
+nav a:link,
+a:visited {
+  color: #5e2d00;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #f03;
+  text-decoration: underline;
+}
+dd {
+  font-size: 22px;
+  font-family: '微软雅黑';
+  line-height: 38px;
+  color: #333;
+}
+dd::before {
+  content: url('../images/11.png');
+}
+dd:nth-child(3) {
+  color: #bda793;
+}
+dd:nth-child(5) {
+  color: #bda793;
+}
+dd:nth-child(2) em {
+  color: #f03;
+  font-weight: bold;
+  font-style: normal;
+}
+dd:nth-child(3) em {
+  color: #5e2d00;
+  font-weight: bold;
+  font-style: normal;
+}
+dl {
+  display: none;
+}
+:target {
+  display: block;
+}
